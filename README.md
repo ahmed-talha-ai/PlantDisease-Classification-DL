@@ -1,51 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Plant Disease Classification using Deep Learning</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #333;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 3px;
-            font-family: monospace;
-        }
-        .highlight {
-            background-color: #fffde7;
-            padding: 15px;
-            border-left: 4px solid #ffd600;
-            margin: 15px 0;
-        }
-        .section {
-            margin-bottom: 25px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .model-name {
-            font-weight: bold;
-        }
-    </style>
+
 </head>
 <body>
     <h1>Plant Disease Classification using Deep Learning</h1>
