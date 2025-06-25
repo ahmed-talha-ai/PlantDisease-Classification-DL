@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    
 </head>
 <body>
     <h1>Plant Disease Classification using Deep Learning</h1>
     
-   <div class="section">
+ <div class="section">
         <p>This project implements various deep learning models to classify plant diseases using the PlantVillage dataset. The system compares the performance of different CNN architectures for automated plant disease detection from leaf images.</p>
     </div>
     
-  <div class="section">
+<div class="section">
         <h2>Model Performance</h2>
         <p>The following models were trained and evaluated on the PlantVillage dataset:</p>
         
@@ -55,7 +55,7 @@
             <p><strong>Note:</strong> All models were trained for 20 epochs with a batch size of 16 on 224×224px images.</p>
     </div>
     
-  <div class="section">
+<div class="section">
         <h2>Key Observations</h2>
         <ul>
             <li>The custom 9-layer CNN achieved the best validation accuracy (93.84%) despite having fewer parameters than the pretrained models</li>
@@ -66,7 +66,7 @@
         </ul>
     </div>
     
-   <div class="section">
+  <div class="section">
         <h2>Training Details</h2>
         <ul>
             <li><strong>Dataset:</strong> 16,516 training images, 4,122 validation images (20% split)</li>
@@ -79,7 +79,7 @@
         </ul>
     </div>
     
-  <div class="section">
+ <div class="section">
         <h2>Visualizations</h2>
         <p>The notebook generates comprehensive visualizations for each model including:</p>
         <ul>
@@ -88,9 +88,10 @@
             <li>Confusion matrices</li>
             <li>Model architecture summaries</li>
         </ul>
+        <p><strong>View complete model results:</strong> <a href="https://drive.google.com/drive/folders/1XrPfZo8NKgf6ebo7yAnF0jVtWxb1Yfd9?usp=drive_link" target="_blank">Google Drive Folder</a></p>
     </div>
     
-  <div class="section">
+ <div class="section">
         <h2>How to Run</h2>
         <div class="highlight">
             <ol>
@@ -104,7 +105,7 @@
         </div>
     </div>
     
-   <div class="section">
+ <div class="section">
         <h2>Future Work</h2>
         <ul>
             <li>Implement more extensive data augmentation</li>
